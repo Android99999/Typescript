@@ -1,0 +1,36 @@
+npm i typescript -g
+
+"target": "ES2016"
+"rootDir": "./src",      // it means all tsc file that created js file is from this folder.
+"outDir": "./build/js"  // it means all tsc file will recreate the js file to this folder.
+"noEmitOnError": true  // it means it do not commit/emit the changes in tsc file if it have an error.
+
+},
+  "include": [
+    "src"               //this means all tsc file in src folder will recreate a js file if you command 'tsc' it.
+  ]
+
+TO CHECK THE DATATYPE 
+	
+	typeof variablename
+
+
+
+datatypes: 
+
+	string
+	bool
+	number
+	any
+	RegExp
+
+uniontype = combination of two or more datatype
+
+	bool | string | number
+
+
+array
+	let myArray: string[] = [] //it accepts only string value
+
+
+
